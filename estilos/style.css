@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: rgb(226, 218, 218);
+    background-color: rgb(250, 248, 248);
 
 }
 
 main{
-    background-color: rgb(255, 247, 247);
+    background-color: rgb(224, 215, 215);
     width: 100%;
     margin: auto;
     pad: 10px;
@@ -18,14 +18,14 @@ main{
 
 img{
     width: 20%;
-    margin-block-start: -0%;
-    margin-inline-start: -0%;
-    border-radius: 50%;
+    margin-block-start: Edge 79, Firefox 41, Safari 12, Chrome 69, Opera 56;
+    margin-inline-start: Edge 79, Firefox 41, Safari 12, Chrome 69, Opera 56;
+    border-radius: 100%;
     }
-
+    
     h1{
         font-style: italic;
-        color: aliceblue;
+        color: rgb(8, 8, 8);
         margin-left: 30px;
         
     }
@@ -34,4 +34,36 @@ img{
         list-style-type: none;
         margin: 0;
         padding: 0;
+        overflow: hidden;
+        background-color: #333;;
     }
+
+    li {        
+        float: left;
+      }    
+      
+     li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 30px;
+        text-decoration: none;     
+      }
+
+      li a:hover{
+          background-color: rgba(202, 187, 51, 0.356);
+      }
+      img {
+         
+          max-width: 10%;
+          border-left: 0px;
+          border-right: 0px;
+      }
+
+      
+
+      
+    
+      
+
+      
